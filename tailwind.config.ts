@@ -13,6 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        heliosSky: "#F0A8D0",
+        heliosSkyLight: "#F7B5CA",
+        heliosPurple: "#CFCEFF", 
+        heliosPurpleLight: "#F1F0FF",   
+        heliosYellow: "#FAE27C", 
+        heliosYellowLight: "#FEFCE8",      
+      }
     },
   },
   plugins: [],
