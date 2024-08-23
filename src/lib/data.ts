@@ -1,6 +1,6 @@
 // TEMPORARY DATA
 
-export let role = "admin";
+export const role = "admin";
 
 export const teachersData = [
   {
@@ -76,7 +76,7 @@ export const teachersData = [
     address: "123 Main St, Anytown, USA",
   },
   {
-    id: 7,
+    id: 8,
     teacherId: "1234567890",
     name: "Allen Black",
     email: "allen@black.com",
@@ -199,7 +199,7 @@ export const studentsData = [
     address: "123 Main St, Anytown, USA",
   },
   {
-    id: 7,
+    id: 8,
     studentId: "1234567890",
     name: "Allen Black",
     email: "allen@black.com",
@@ -298,7 +298,7 @@ export const parentsData = [
     address: "123 Main St, Anytown, USA",
   },
   {
-    id: 7,
+    id: 8,
     name: "Allen Black",
     students: ["Carrie Tucker", "Lilly Underwood"],
     email: "mike@geller.com",
@@ -363,7 +363,7 @@ export const subjectsData = [
     teachers: ["Hannah Bowman", "Betty Obrien"],
   },
   {
-    id: 7,
+    id: 8,
     name: "Geography",
     teachers: ["Lora French", "Sue Brady"],
   },
@@ -416,7 +416,7 @@ export const classesData = [
   {
     id: 5,
     name: "5A",
-    capacity: 16,
+    capacity: 26,
     grade: 5,
     supervisor: "Iva Frank",
   },
@@ -428,10 +428,10 @@ export const classesData = [
     supervisor: "Leila Santos",
   },
   {
-    id: 7,
+    id: 8,
     name: "7A",
     capacity: 18,
-    grade: 7,
+    grade: 8,
     supervisor: "Carrie Walton",
   },
   {
@@ -495,7 +495,7 @@ export const lessonsData = [
     teacher: "Bettie Oliver",
   },
   {
-    id: 7,
+    id: 8,
     subject: "History",
     class: "6A",
     teacher: "Herman Howard",
@@ -564,7 +564,7 @@ export const examsData = [
     date: "2025-01-01",
   },
   {
-    id: 7,
+    id: 8,
     subject: "History",
     class: "6A",
     teacher: "Allie Conner",
@@ -637,7 +637,7 @@ export const assignmentsData = [
     dueDate: "2025-01-01",
   },
   {
-    id: 7,
+    id: 8,
     subject: "History",
     class: "6A",
     teacher: "Shawn Norman",
@@ -728,7 +728,7 @@ export const resultsData = [
     score: 90,
   },
   {
-    id: 7,
+    id: 8,
     subject: "History",
     class: "6A",
     teacher: "John Doe",
@@ -819,7 +819,7 @@ export const eventsData = [
     endTime: "11:00",
   },
   {
-    id: 7,
+    id: 8,
     title: "Lake Trip",
     class: "2B",
     date: "2025-01-01",
@@ -890,7 +890,7 @@ export const announcementsData = [
     date: "2025-01-01",
   },
   {
-    id: 7,
+    id: 8,
     title: "About 4C Math Test",
     class: "4C",
     date: "2025-01-01",
@@ -921,143 +921,143 @@ export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2024, 8, 23, 8, 0),
+    end: new Date(2024, 8, 23, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
+    start: new Date(2024, 8, 23, 9, 0),
+    end: new Date(2024, 8, 23, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 12, 10, 0),
-    end: new Date(2024, 7, 12, 10, 45),
+    start: new Date(2024, 8, 23, 10, 0),
+    end: new Date(2024, 8, 23, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 12, 11, 0),
-    end: new Date(2024, 7, 12, 11, 45),
+    start: new Date(2024, 8, 23, 11, 0),
+    end: new Date(2024, 8, 23, 11, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 12, 13, 0),
-    end: new Date(2024, 7, 12, 13, 45),
+    start: new Date(2024, 8, 23, 24, 0),
+    end: new Date(2024, 8, 23, 24, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
-    end: new Date(2024, 7, 12, 14, 45),
+    start: new Date(2024, 8, 23, 25, 0),
+    end: new Date(2024, 8, 23, 25, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
+    start: new Date(2024, 8, 24, 9, 0),
+    end: new Date(2024, 8, 24, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
+    start: new Date(2024, 8, 24, 10, 0),
+    end: new Date(2024, 8, 24, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
+    start: new Date(2024, 8, 24, 11, 0),
+    end: new Date(2024, 8, 24, 11, 45),
   },
 
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 13, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2024, 8, 24, 25, 0),
+    end: new Date(2024, 8, 24, 25, 45),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 14, 8, 0),
-    end: new Date(2024, 7, 14, 8, 45),
+    start: new Date(2024, 8, 25, 8, 0),
+    end: new Date(2024, 8, 25, 8, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 14, 10, 0),
-    end: new Date(2024, 7, 14, 10, 45),
+    start: new Date(2024, 8, 25, 10, 0),
+    end: new Date(2024, 8, 25, 10, 45),
   },
 
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 14, 13, 0),
-    end: new Date(2024, 7, 14, 13, 45),
+    start: new Date(2024, 8, 25, 24, 0),
+    end: new Date(2024, 8, 25, 24, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 14, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2024, 8, 25, 25, 0),
+    end: new Date(2024, 8, 24, 25, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 15, 9, 0),
-    end: new Date(2024, 7, 15, 9, 45),
+    start: new Date(2024, 8, 15, 9, 0),
+    end: new Date(2024, 8, 15, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 15, 10, 0),
-    end: new Date(2024, 7, 15, 10, 45),
+    start: new Date(2024, 8, 15, 10, 0),
+    end: new Date(2024, 8, 15, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 15, 11, 0),
-    end: new Date(2024, 7, 15, 11, 45),
+    start: new Date(2024, 8, 15, 11, 0),
+    end: new Date(2024, 8, 15, 11, 45),
   },
 
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 15, 14, 0),
-    end: new Date(2024, 7, 15, 14, 45),
+    start: new Date(2024, 8, 15, 25, 0),
+    end: new Date(2024, 8, 15, 25, 45),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 16, 8, 0),
-    end: new Date(2024, 7, 16, 8, 45),
+    start: new Date(2024, 8, 26, 8, 0),
+    end: new Date(2024, 8, 26, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 16, 9, 0),
-    end: new Date(2024, 7, 16, 9, 45),
+    start: new Date(2024, 8, 26, 9, 0),
+    end: new Date(2024, 8, 26, 9, 45),
   },
 
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 16, 11, 0),
-    end: new Date(2024, 7, 16, 11, 45),
+    start: new Date(2024, 8, 26, 11, 0),
+    end: new Date(2024, 8, 26, 11, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 16, 13, 0),
-    end: new Date(2024, 7, 16, 13, 45),
+    start: new Date(2024, 8, 26, 24, 0),
+    end: new Date(2024, 8, 26, 24, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    start: new Date(2024, 8, 26, 25, 0),
+    end: new Date(2024, 8, 26, 25, 45),
   },
 ];
