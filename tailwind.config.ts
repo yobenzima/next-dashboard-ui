@@ -14,8 +14,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        heliosSky: "#F0A8D0",
-        heliosSkyLight: "#F7B5CA",
+        heliosSky: "#C3EBFA",
+        heliosSkyLight: "#EDF9FD",
         heliosPurple: "#CFCEFF", 
         heliosPurpleLight: "#F1F0FF",   
         heliosYellow: "#FAE27C", 
